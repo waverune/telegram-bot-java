@@ -8,7 +8,8 @@ public class eeeewwwwbot extends TelegramLongPollingBot {
 
     @Override
     public void onUpdateReceived(Update update) {
-		czekFunctions myfn = new czekFunctions();
+	    	//Functionality and input handler a czekF
+		czekFunctions myfn = new czekFunctions(); 		   //flux
 			// Set variables
 			User.setUser(update);
 		try {
