@@ -4,10 +4,7 @@ import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
 
 import java.io.IOException;
 
-
 public class eeeewwwwbot extends TelegramLongPollingBot {
-
-
 
     @Override
     public void onUpdateReceived(Update update) {
@@ -19,9 +16,7 @@ public class eeeewwwwbot extends TelegramLongPollingBot {
 		} catch (TelegramApiException | IOException e) {
 			e.printStackTrace();
 		}
-
 	}
-
 
     	@Override
   	  	public String getBotUsername() {
@@ -30,7 +25,7 @@ public class eeeewwwwbot extends TelegramLongPollingBot {
 
     	@Override
     	public String getBotToken() {
-     	   return "1113664653:AAFQVgknCqaWP-K1TTIcYO1DzB2d0wYYXME";
+     	   return "<bot_token>";
    		}
 
 	// terminal messenger NOT WORKING
